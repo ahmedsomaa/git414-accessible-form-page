@@ -38,9 +38,7 @@
 
         <form action="https://wp.zybooks.com/form-viewer.php" method="post">
           <!-- Full name -->
-          <label for="fullName"
-            >Full Name <span class="required">*</span></label
-          >
+          <label for="fullName">Full Name<span class="required">*</span></label>
           <input type="text" id="fullName" name="fullName" required />
 
           <!-- Email -->
@@ -61,12 +59,14 @@
               name="contactMethod"
               id="contact-phone"
               value="phone"
+              required
             />Phone
             <input
               type="radio"
               name="contactMethod"
               id="contact-email"
               value="email"
+              required
             />Email
           </fieldset>
 
